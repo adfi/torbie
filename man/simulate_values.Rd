@@ -17,10 +17,20 @@ simulate_values(sample_size, distribution, ...)
 A numeric vector
 }
 \description{
-Description here
+Produces a \code{sample_size} number of values Using the random generation
+function for the given \code{distribution}. Only the Normal, Binomial
+or Poisson distribution are currently accepted.
+}
+\details{
+For the Normal distribution no parameters are necessary, this defaults to the
+Standard Normal distribution. However, the Poisson and Binomial distribution do
+require parameters and an error is thrown if these are not provided.
 }
 \examples{
-simulate_values(10, 'norm')
-simulate_values(100, 'binom')
+simulate_values(10, 'Normal')
+simulate_values(100, 'Binomial', size=10, prob=0.5)
+}
+\seealso{
+\code{\link{rnorm}}, \code{\link{rpois}}, \code{\link{rbinom}}
 }
 

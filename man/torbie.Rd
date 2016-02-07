@@ -7,6 +7,6 @@
 \title{torbie: A package for simulating values from probability distributions}
 \description{
 The torbie package provides one function which allows you to simulate
-values from probability distributions
+values from either the Normal, Poisson or Binomial distribution.
 }
 
