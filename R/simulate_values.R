@@ -17,6 +17,9 @@
 #' simulate_values(10, 'Normal')
 #' simulate_values(100, 'Binomial', size=10, prob=0.5)
 simulate_values <- function(sample_size, distribution, ...){
+  if(sample_size < 0) {
+    stop("Sample size must be larger than zero")
+  }
   switch(distribution,
          Normal=rnorm(sample_size, ...),
          Poisson=rpois(sample_size, ...),

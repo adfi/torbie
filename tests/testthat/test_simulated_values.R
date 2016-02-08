@@ -9,6 +9,7 @@ test_that("simulated values are returned for the Normal distribution", {
                  c(11.86305, 10.72662, 11.16738, 10.19025, 10.1049), tolerance = 1e-05)
     expect_equal(simulate_values(5, "Normal", mean = 5, sd = 5),
                  c(7.47626248, 8.67423014, 14.94870594, 0.8816812, -0.03901771), tolerance = 1e-05)
+    expect_error(simulate_values(-1, 'Normal'))
 })
 
 test_that("simulated values are returned for the Poisson distribution", {
