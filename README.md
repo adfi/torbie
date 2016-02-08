@@ -10,3 +10,9 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Tortoiseshell_cat) Tortoi
 ### Installation
 The fastest way to install the package would be to use *devtools::install_github*. 
 Alternatively you could clone the repository and build the package via RStudio.
+
+### Next steps
+* Adapt code for other distributions
+  + Get list of distributions in *stats*
+  + Use some non-standard evaluation to dynamically get random generation function
+* Think of a more relevant name than torbie
