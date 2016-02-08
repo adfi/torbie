@@ -4,6 +4,7 @@
 #' function for the given \code{distribution}. Only the Normal, Binomial
 #' or Poisson distribution are currently accepted.
 #'
+#' @export
 #' @param sample_size A integer value larger than zero
 #' @param distribution A character value specifying the probability distribution
 #' @param ... parameters of the probability distribution

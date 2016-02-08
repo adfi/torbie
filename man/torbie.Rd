@@ -6,7 +6,7 @@
 \alias{torbie-package}
 \title{torbie: A package for simulating values from probability distributions}
 \description{
-The torbie package provides one function which allows you to simulate
+The torbie package provides the function \code{\link{simulate_values}} which allows you to simulate
 values from either the Normal, Poisson or Binomial distribution.
 }
 

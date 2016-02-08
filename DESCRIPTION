@@ -3,11 +3,12 @@ Type: Package
 Title: A package for simulating values from probability distributions
 Version: 0.1
 Date: 2016-02-07
-Author@R: person("Adnan", "Fiaz", email = "adnan.fiaz@gmail.com",
-                  role = c("aut", "cre"))
+Author: Adnan Fiaz [aut, cre]
+Maintainer: Adnan Fiaz <adnan.fiaz@gmail.com>
 Description: The torbie package provides one function which allows you to simulate
              values from either the Normal, Poisson or Binomial distribution.
 LazyData: TRUE
+License: CC0
 Suggests:
     knitr,
     rmarkdown,

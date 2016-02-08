@@ -16,6 +16,10 @@ torbie is the name of a R package created to simulate values from three probabil
 
 ### How to use it
 The package provides one function which you can use to generate the simulated values. Following are a number of examples.
+```{r, echo=FALSE}
+library(torbie)
+```
+
 ```{r}
 simulate_values(5, 'Normal')
 simulate_values(5, 'Poisson', lambda=10)
