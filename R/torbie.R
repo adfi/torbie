@@ -7,4 +7,4 @@
 #' @docType package
 #' @name torbie
 NULL
-#> NULL
+# > NULL 
