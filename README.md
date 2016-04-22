@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/adfi/torbie.svg?branch=master)](https://travis-ci.org/adfi/torbie)
 # torbie
 Simulate values from probability distributions
 ### What is it?
